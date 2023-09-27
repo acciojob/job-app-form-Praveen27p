@@ -4,10 +4,38 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <meta charset="UTF-8" />
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method='post'>
+		<label for="name" class="required">Name</label><br>
+        <input type='text' id="name" required><br><br>
+		<lable for="email" class="required">Email</lable><br>
+		<input type="email" id="email" required><br><br>
+		<lable for="radio" class="required">Gender</lable><br>
+		<input type="radio"  gender="name" >male
+		<input type="radio"  gender="name">female<br><br>
+		<label for="laptop" class="required">Laptop Brands:</label>
+
+		<select name="Laptop Brands" id="laptop">
+			  <option value="Apple">Apple</option>
+			  <option value="Asus">Asus</option>
+			  <option value="HP">HP</option>
+		</select><br><br>
+		<lable for="age" class="required">Age</lable>
+		<input type="Number" id="age" required><br><br>
+		<lable for="dob" class="required" >Date of Birth	</lable>
+		<input type="Date" id="dob" ><br><br>
+		<lable for="password" class="required">Password</lable>
+		<input type="password" id="password" required><br><br>
+		<lable for="portfolio" class="required">Portfolio URL</lable>
+		<input type="url" id="portfolio" ><br><br>
+		<lable for="submit button" class="required">Submit Button</lable>
+		<button type="submit" form="nameform" value="Submit">Submit</button>
+		 
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
